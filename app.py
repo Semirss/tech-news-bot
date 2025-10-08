@@ -11,7 +11,8 @@ import time
 # Load credentials from environment variables
 TOKEN = os.environ.get('TOKEN')
 OPENROUTER_KEY = os.environ.get('OPENROUTER_KEY')
-GROUPS = os.environ.get('GROUPS', '@semirgp1,@semirgp2', '@semirgp3', '@semirgp4', '@semirgp5', '@semirgp6', '@semirgp7').split(',')  # default if env not set
+GROUPS = ['@semirgp1', '@semirgp2', '@semirgp3', '@semirgp4', '@semirgp5', '@semirgp6', '@semirgp7']
+
 
 # RSS Feeds (100 reliable and diverse feeds)
 RSS_FEEDS = [
